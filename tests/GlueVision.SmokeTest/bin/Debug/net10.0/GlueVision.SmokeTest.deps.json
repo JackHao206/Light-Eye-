@@ -1,0 +1,105 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "GlueVision.SmokeTest/1.0.0": {
+        "dependencies": {
+          "GlueVision.Core": "1.0.0",
+          "GlueVision.Hardware": "1.0.0",
+          "GlueVision.Process": "1.0.0",
+          "GlueVision.Vision": "1.0.0"
+        },
+        "runtime": {
+          "GlueVision.SmokeTest.dll": {}
+        }
+      },
+      "GlueVision.Core/1.0.0": {
+        "runtime": {
+          "GlueVision.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GlueVision.Hardware/1.0.0": {
+        "dependencies": {
+          "GlueVision.Core": "1.0.0"
+        },
+        "runtime": {
+          "GlueVision.Hardware.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GlueVision.Process/1.0.0": {
+        "dependencies": {
+          "GlueVision.Core": "1.0.0",
+          "GlueVision.Hardware": "1.0.0",
+          "GlueVision.Vision": "1.0.0"
+        },
+        "runtime": {
+          "GlueVision.Process.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "GlueVision.Vision/1.0.0": {
+        "dependencies": {
+          "GlueVision.Core": "1.0.0"
+        },
+        "runtime": {
+          "GlueVision.Vision.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "halcondotnet/24.11.1.0": {
+        "runtime": {
+          "halcondotnet.dll": {
+            "assemblyVersion": "24.11.1.0",
+            "fileVersion": "24.11.1.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "GlueVision.SmokeTest/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GlueVision.Core/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GlueVision.Hardware/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GlueVision.Process/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "GlueVision.Vision/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "halcondotnet/24.11.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

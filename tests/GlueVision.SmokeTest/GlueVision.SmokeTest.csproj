@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <PlatformTarget>x64</PlatformTarget>
+    <RootNamespace>GlueVision.SmokeTest</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\GlueVision.Core\GlueVision.Core.csproj" />
+    <ProjectReference Include="..\..\src\GlueVision.Hardware\GlueVision.Hardware.csproj" />
+    <ProjectReference Include="..\..\src\GlueVision.Vision\GlueVision.Vision.csproj" />
+    <ProjectReference Include="..\..\src\GlueVision.Process\GlueVision.Process.csproj" />
+  </ItemGroup>
+
+</Project>

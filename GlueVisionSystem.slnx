@@ -1,0 +1,12 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/GlueVision.App/GlueVision.App.csproj" />
+    <Project Path="src/GlueVision.Core/GlueVision.Core.csproj" />
+    <Project Path="src/GlueVision.Hardware/GlueVision.Hardware.csproj" />
+    <Project Path="src/GlueVision.Process/GlueVision.Process.csproj" />
+    <Project Path="src/GlueVision.Vision/GlueVision.Vision.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/GlueVision.SmokeTest/GlueVision.SmokeTest.csproj" />
+  </Folder>
+</Solution>
